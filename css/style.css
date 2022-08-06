@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    
+    
+
+}
+
+header{
+    height:100px;
+    width: 100%;
+    background-image: url("../img/banderas.webp");
+    text-align: center;
+}
+header span{
+    font-size: 40px;
+    font-family: verdana, arial, helvet;
+
+    margin-top: 20px;
+   color:#21D4FD;
+    text-shadow: 3px 3px #B721FF;
+
+
+ 
+}
+
+
+.container {
+    background-color: white;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius:12px;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+
+.search-wapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em
+}
+
+
+
+button{
+font-size: 1em;
+background-color:  #21D4FD;
+color: white;
+border: none;
+padding: 0.8em 0;
+border-radius: 20px;
+}
+
+input{
+    font-size: 1em;
+    border: none;
+    padding: 0.62em 0;
+    border-bottom: 2px solid #21D4FD;
+    outline:none ;
+    color: rgb(18, 29, 29)
+}
+
+
+
+.results{
+    margin-top: 1.25em;
+}
+
+img{
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+    width: 100%;
+
+}
+.img-wrapper{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 10em 4em;
+    gap: 1.25em;
+    width: 100%;
+}
+.container .flag-img {
+   
+    margin: 1.8em auto;
+    margin-left: 9em;
+
+    }
+    
+
+
+.container h2{
+    text-align: center;
+    font-weight: 600;
+    color:rgb(18, 29, 29);
+    margin-bottom: 1em;
+}
+
+.container h4{
+
+   font-style: oblique;
+    display: inline;
+    font-weight: 500;
+ 
+}
+
+.container h3{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.data-wrapper{
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: rgba(30, 160, 177, 0.25);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+footer a {
+   text-decoration: none;
+   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container .flag-img {
+
+        margin: 1.8em auto;
+        margin-left: auto;
+    
+        }
+
+        .search-wapper{
+            display: block;
+          
+        }
+   
+        
+        
+        
+  }
+
+  @media only screen and (max-width: 400px) {
+    .img-wrapper{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 4em 2em;
+        gap: 1.25em;
+        width: 20%;
+    }
+
+     
+        
+        
+  }
